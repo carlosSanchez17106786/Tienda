@@ -38,6 +38,7 @@
 				<li><a href="<?=base_url?>usuario/logout">Cerrar sesión</a></li>
 			<?php else: ?> 
 				<li><a href="<?=base_url?>usuario/registro">Registrate aqui</a></li>
+				<li><a href="<?=base_url?>usuario/passReset">¿Olvidaste tu contraseña?</a></li>
 			<?php endif; ?> 
 		</ul>
 	</div>
