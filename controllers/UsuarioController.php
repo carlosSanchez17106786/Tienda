@@ -22,6 +22,8 @@ class usuarioController{
 	}
 	public function passReset(){
 		require_once 'views/usuario/recordarPassword.php';
+
+		
 	}
 	public function confirmPass(){
 		if(isset($_POST) && !empty($_POST)){
